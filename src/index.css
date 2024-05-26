@@ -4,6 +4,10 @@
 }
 .container {
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .title {
   text-align: center;
@@ -12,7 +16,7 @@
 
 img {
   border-radius: 5px;
-  margin: 100px auto;
+  margin: 50px auto;
   display: flex;
   justify-content: center;
 }
